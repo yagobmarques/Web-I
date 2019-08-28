@@ -1,0 +1,110 @@
+#left_nav{
+  height: 99vh;
+  width: 15%;
+  position:sticky;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+#left_nav a{
+  text-decoration: none;
+  color: #818181;
+}
+#left_nav p{
+  text-decoration: none;
+  color: #818181;
+  font-size: 25px;
+}
+#left_nav a:hover {
+  color: black;
+}
+#content{
+  overflow: auto;
+  padding: 10px;
+  height: 99vh;
+  width: 80%;
+  background-color: white;
+  text-align: center;
+}
+#dados_pessoais{
+  text-align:left;
+  border-bottom: 3px;
+  border-bottom-color: black;
+  border-bottom-style: double; 
+}
+#dados_pessoais a{
+  text-decoration: none;
+   color: #818181;
+
+}
+#dados_pessoais a:hover{
+  color: black;
+}
+#caracteristicas{
+  text-align: left;
+  border-bottom: 3px;
+  border-bottom-color: black;
+  border-bottom-style: double; 
+}
+#formacao{
+  text-align: left;
+  border-bottom: 3px;
+  border-bottom-color: black;
+  border-bottom-style: double; 
+}
+#experiencia{
+  text-align: left;
+  border-bottom: 3px;
+  border-bottom-color: black;
+  border-bottom-style: double; 
+}
+#habilidades{
+  text-align:left;
+  border-bottom: 3px;
+  border-bottom-color: black;
+  border-bottom-style: double;
+}
+#forms{
+  text-align: left;
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(4,11,83,1) 35%, rgba(0,212,255,1) 100%);
+}
+#corpo{
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+button {
+    align-self: center;
+    margin-top: 5px;
+    width: 300px;
+}
+
+textarea {
+
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+li{
+  list-style-type:square;
+}
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+#caracteristicas{
+  text-align: left;
+  border-bottom: 3px;
+  border-bottom-color: black;
+  border-bottom-style: double; 
+  list-style-type:none;
+}
