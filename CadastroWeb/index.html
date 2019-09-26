@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Solzin & Yago</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
 </head>
 <body>
@@ -17,7 +17,22 @@
         Peso: <input type="text" id="peso" >  </input> </br>
         Sexo:  <input type="text" id="sexo" > </input></br>
         <button type="button" id="adicionar" onclick="cadastrar()">Adicionar</button>
-        <button type="submit"  id="enviar">Enviar</button>
+        <button type="button"  id="enviar" onclick="mostrar()">Enviar</button>
      </form>
+     <br>
+     <div id="tabela">
+         <table id="tabela1">
+           <tr>
+             <th colspan="5">Valores:</th>
+           </tr>
+           <tr>
+              <th>Nome</th>
+              <th>Idade</th>
+              <th>Sexo</th>
+              <th>Data de Nascimento</th>
+              <th>IMC</th>
+           </tr>
+         </table>
+     </div>
 </body>
 </html>
