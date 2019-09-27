@@ -1,4 +1,20 @@
+body{
+  font-size: 20px;
+}
 table, th, td {
   border: 1px double black;
   text-align: center;
+}
+table{
+  margin: 0 auto;
+  width: 80%;
+}
+form {
+  /* Apenas para centralizar o form na página */
+  margin: 0 auto;
+  width: 80%;
+  /* Para ver as bordas do formulário */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
 }

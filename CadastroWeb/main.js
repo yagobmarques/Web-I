@@ -41,4 +41,5 @@ function mostrar(){
         //document.querySelector("table").appendChild("<tr>" + nome + idade + sexo + nascimento + imc + "/tr>"); 
         t.appendChild(r);
   }
+  Lista = [];
 }
